@@ -10,6 +10,13 @@
 
 
 models:
+  - name: HuggingFaceTB/SmolLM2-135M
+    display_name: SmolLM2-135M
+    description: 135M param version of SmolLM2
+    creator_organization_name: Hugging Face
+    access: open
+    release_date: 2024-07-14
+    tags: [TEXT_MODEL_TAG]
 
   - name: simple/model1
     display_name: Simple Model 1

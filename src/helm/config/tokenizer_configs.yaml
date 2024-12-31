@@ -275,6 +275,13 @@ tokenizer_configs:
     end_of_text_token: "<|endoftext|>"
     prefix_token: ""
 
+  # HuggingFaceTM
+  - name: HuggingFaceTB/SmolLM2-135M
+    tokenizer_spec:
+      class_name: "helm.tokenizers.huggingface_tokenizer.HuggingFaceTokenizer"
+    end_of_text_token: "<|endoftext|>"
+    prefix_token: "<|endoftext|>"
+
   # Huggingface
   - name: huggingface/gpt2
     tokenizer_spec:

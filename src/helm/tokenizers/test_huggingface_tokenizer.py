@@ -138,3 +138,6 @@ class TestHuggingFaceTokenizer:
             token_ids = tokenizer.encode(eos_token)
             assert singleton(token_ids) == 50256
             assert tokenizer.decode(token_ids) == eos_token
+
+    def test_get_smolm2_tokenizer(self):
+        TestHuggingFaceTokenizer.verify_get_tokenizer("HuggingFaceTB/SmolLM2-135M", 50)
